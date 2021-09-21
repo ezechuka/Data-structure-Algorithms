@@ -1,3 +1,5 @@
+package linkedlist
+
 interface Queue<T> {
     fun enqueue(element: T): Boolean
 
