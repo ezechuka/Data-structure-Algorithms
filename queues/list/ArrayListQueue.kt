@@ -1,7 +1,5 @@
 package list
 
-import Queue
-
 class ArrayListQueue<T>: Queue<T> {
     private val list = arrayListOf<T>()
 
