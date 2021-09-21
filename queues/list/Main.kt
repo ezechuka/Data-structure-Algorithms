@@ -33,4 +33,16 @@ fun main(args: Array<String>) {
 
     queue1.nextPlayer()
     println(queue1)
+
+    println("---Reverse queue example----")
+    val queue2 = ArrayListQueue<String>().apply { 
+        enqueue("1")
+        enqueue("21")
+        enqueue("18")
+        enqueue("42")
+     }
+
+     println("Before: $queue2")
+     queue2.reverse()
+     println("After: $queue2")
 }
